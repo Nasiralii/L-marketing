@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+    max-width: 1280px;
+    margin:  0px auto;
+}
+.container-fluid{
+    max-width: 1600px;
+    margin:  0px auto;
+}
+h1,h2,h3{
+font-family: 'Khula', sans-serif;
+
+ }
+ body{
+    font-family: 'Lato', sans-serif;
+ }
+
+ .y-clr{
+     color: #ffa700     ;
+ }
+ .y-bg{
+     background:#ffa700   ;
+ }
+ .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
